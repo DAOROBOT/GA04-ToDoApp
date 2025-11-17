@@ -1,0 +1,25 @@
+{
+  "name": "ga03-todo-web",
+  "version": "1.0.0",
+  "description": "GA03-ToDo List using vanilla Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/style/main.css -o ./public/output.css --watch",
+    "build": "tailwindcss -i ./src/style/main.css -o ./public/output.css --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DAOROBOT/GA03-ToDo-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DAOROBOT/GA03-ToDo-Web/issues"
+  },
+  "homepage": "https://github.com/DAOROBOT/GA03-ToDo-Web#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.16"
+  }
+}
