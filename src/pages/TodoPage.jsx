@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import TodoItem from '../components/TodoItem.jsx'; 
+import TodoItem from '../components/ToDoItem.jsx'; 
 
 const getInitialTasks = () => {
   const tasksJSON = localStorage.getItem('todos');
   if (tasksJSON === null) return [];
   
-  // Parse data từ local. Đảm bảo mỗi task đều có ID.
+ 
   const parsedTasks = JSON.parse(tasksJSON);
   return parsedTasks.map((task, index) => ({
-    id: task.id || Date.now() + index, // Thêm id nếu chưa có
+    id: task.id || Date.now() + index, 
     text: task.text,
     completed: task.completed,
   }));
