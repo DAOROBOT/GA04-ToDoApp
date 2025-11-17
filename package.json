@@ -1,25 +1,27 @@
 {
-  "name": "ga03-todo-web",
-  "version": "1.0.0",
-  "description": "GA03-ToDo List using vanilla Javascript.",
-  "main": "index.js",
+  "name": "ga04-todo-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "tailwindcss -i ./src/style/main.css -o ./public/output.css --watch",
-    "build": "tailwindcss -i ./src/style/main.css -o ./public/output.css --minify",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DAOROBOT/GA03-ToDo-Web.git"
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DAOROBOT/GA03-ToDo-Web/issues"
-  },
-  "homepage": "https://github.com/DAOROBOT/GA03-ToDo-Web#readme",
   "devDependencies": {
-    "tailwindcss": "^4.1.16"
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "vite": "^7.2.2"
   }
 }
