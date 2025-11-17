@@ -1,13 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css' // Đảm bảo bạn import file index.css
-import { BrowserRouter } from 'react-router-dom' 
+import './index.css'
+import { BrowserRouter } from 'react-router-dom'
+
+
+const repoBaseName = import.meta.env.BASE_URL;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-
-    <BrowserRouter>
+    <BrowserRouter basename={repoBaseName}>
       <App />
     </BrowserRouter>
   </React.StrictMode>,

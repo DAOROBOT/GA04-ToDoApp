@@ -64,7 +64,7 @@ function TodoPage() {
   
 
   return (
-    <body className="bg-gray-100 font-sans antialiased min-h-screen">
+    <div className="bg-gray-100 font-sans antialiased min-h-screen">
       <Link to="/" className="inline-block mt-6 ml-6 text-blue-500 hover:underline">
         ← Back to Home
       </Link>
@@ -105,7 +105,7 @@ function TodoPage() {
           ))}
         </ul>
       </div>
-    </body>
+    </div>
   );
 }
 
