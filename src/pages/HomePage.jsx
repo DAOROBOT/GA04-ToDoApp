@@ -31,7 +31,7 @@ function HomePage() {
       
       <div className="flex flex-col justify-center items-center bg-white dark:bg-gray-800 shadow-xl rounded-lg p-10 w-full text-center mb-10">
         <h1 className="text-4xl md:text-5xl font-bold font-poppins text-gray-800 dark:text-white">
-          KTPM01 - GA03
+          KTPM01 - GA04
         </h1>
         <p className="text-xl md:text-2xl mt-2">
           Welcome to our To-Do App!
